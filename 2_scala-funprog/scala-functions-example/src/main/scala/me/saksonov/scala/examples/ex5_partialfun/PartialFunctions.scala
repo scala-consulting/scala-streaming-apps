@@ -22,12 +22,12 @@ object PartialFunctionDefinedExample extends App {
 
 object PartialFunctionCompositionExample extends App {
 
-  val caseDivide: PartialFunction[Int, Int] = {
+  val caseDivide42by: PartialFunction[Int, Int] = {
     case x: Int if x != 0 => 42 / x
   }
 
   val safeDivide42by: PartialFunction[Int, Int] =
-    caseDivide orElse (identity(_))
+    caseDivide42by orElse (identity(_))
 
   val safeDivide42byPlusOne = safeDivide42by andThen { x => x + 1 }
 
