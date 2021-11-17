@@ -13,7 +13,7 @@ object CorrespondsExampleApp extends App {
 
   import RichCorrespondsOps._
 
-  val strings = Seq("lazy", "dog")
+  val strings: Seq[String] = Seq("lazy", "dog")
   val integers = Seq(4, 3)
 
   print(s"${strings.correspondsByLength(integers)}")

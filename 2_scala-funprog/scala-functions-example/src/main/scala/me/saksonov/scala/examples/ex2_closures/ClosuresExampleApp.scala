@@ -8,7 +8,9 @@ object ClosuresExampleApp extends App {
 
   val x = StdIn.readInt()
 
-  val mulX: (Int, Int) => Int = x * _ * _
+  val mulX: (Int, Int) => Int = {
+    x * _ * _
+  }
 
   val mul3X = mulX(3, _)
 

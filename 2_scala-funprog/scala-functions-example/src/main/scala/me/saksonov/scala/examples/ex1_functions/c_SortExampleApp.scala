@@ -4,9 +4,9 @@ object SortExampleApp extends App {
 
   print(
     "the quick brown fox jumps over the lazy dog"
-      .split(" ")
+      .split(" ") // Array
       .sortWith(_.length > _.length)
-      .mkString(" ")
+      .mkString(" ") // String
   )
 
 }

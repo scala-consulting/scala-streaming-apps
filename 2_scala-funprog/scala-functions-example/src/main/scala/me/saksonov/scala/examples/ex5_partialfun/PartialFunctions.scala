@@ -16,8 +16,6 @@ object PartialFunctionDefinedExample extends App {
   }
 
   if (divide42by.isDefinedAt(0)) divide42by(0)
-
-  divide42by.applyOrElse(0, default = identity)
 }
 
 object PartialFunctionCompositionExample extends App {
@@ -34,4 +32,6 @@ object PartialFunctionCompositionExample extends App {
   println(safeDivide42byPlusOne(0))
 
   val safeDivide42byCompose = safeDivide42by compose [Int] { _ + 1 }
+
+  caseDivide42by.applyOrElse(0, default = identity[Int])
 }

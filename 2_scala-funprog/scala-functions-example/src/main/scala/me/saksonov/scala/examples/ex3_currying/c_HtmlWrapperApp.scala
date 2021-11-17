@@ -13,7 +13,7 @@ object HtmlWrapperApp extends App {
   val helloWorld = "Hello, World"
   val wrappedHelloWorld: String = wrap("<div>", "</div>")(helloWorld)
 
-  val wrapWithDiv: String => String = wrap("<div>", "</div>") // PAF
+  val wrapWithDiv: String => String = wrap("<div>", "</div>")(_) // PAF
 
   print(s"${wrapWithDiv(helloWorld)} == $wrappedHelloWorld")
 

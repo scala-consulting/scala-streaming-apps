@@ -2,10 +2,14 @@ package me.saksonov.scala.examples.ex1_functions
 
 object PrintTreeApp extends App {
 
-  def printTree(lines: Int): Unit =
-    (0 to lines)
-      .map(line => " " * (lines - line) + "*" * (line * 2 + 1))
+  private def printTree(numOfLines: Int): Unit =
+    lines(numOfLines)
       .foreach(println)
 
-  printTree(100)
+  private def lines(numOfLines: Int): Seq[String] = {
+    (0 to numOfLines)
+      .map(line => " " * (numOfLines - line) + "*" * (line * 2 + 1))
+  }
+
+  printTree(10)
 }
