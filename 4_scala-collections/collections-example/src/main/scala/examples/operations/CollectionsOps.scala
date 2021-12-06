@@ -7,12 +7,12 @@ object CollectionsOps extends App {
   val filtered: List[Int] = iterable.filter(_ % 3 == 0)
   val maybeFound: Option[Int] = iterable.find(_.toString.startsWith("3"))
 
-  val _: Unit = iterable.foreach(println(_))
+  //val _: Unit = iterable.foreach(println(_))
 
   val newIterable: List[Int] = iterable.map(_ + 1)
 
   println {
-    iterable.flatMap(i => i.toChar.toString * i) mkString ("")
+    iterable.flatMap(i => i.toChar.toString * i) mkString ("") // .map(f).flatten
   }
 
   // for-comprehensions
@@ -43,4 +43,6 @@ object CollectionsOps extends App {
   println(zipped)
 
   // TODO: .unzip, .transpose
+
+  val (strings, doubles) = zipped.unzip
 }

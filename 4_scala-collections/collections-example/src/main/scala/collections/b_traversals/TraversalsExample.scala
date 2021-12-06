@@ -12,16 +12,18 @@ object TraversalsSetExample extends App {
 
   // or at least max-specialized type if same type is not possible
 
-  val floatSet: SortedSet[Float] = bits map (_.toFloat)
-  val stringSet: Set[String] = bits map (_.toString)
+  val floatSet: SortedSet[Float] = bits map (_.toFloat) // 1 -> 1.0, 2 -> 2.0, 3 -> 3.0
+  val stringSet: SortedSet[String] = bits map (_.toString)
 }
 
 object TraversalsMapExample extends App {
-  val dict: SortedMap[String, Int] = TreeMap("a" -> 1, "b" -> 2)
+  val dict: SortedMap[String, Int] = TreeMap("a" -> 1, "b" -> 1)
 
   // normal overloading of "map" method in Scala 2.13 instead of CanBuildFrom in Scala 2.12
 
   val mirroredMap: SortedMap[Int, String] = dict map { case (k, v) => (v, k) }
+
+  println(mirroredMap)
 
   val keys: Iterable[String] = dict map { case (k, _) => k }
   val values: Iterable[Int] = dict map { case (_, v) => v }

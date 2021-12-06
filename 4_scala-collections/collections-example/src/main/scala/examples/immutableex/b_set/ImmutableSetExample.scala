@@ -1,9 +1,9 @@
-package examples.immutableex
+package examples.immutableex.b_set
 
 object ImmutableSetExample extends App {
 
   // object Set extends IterableFactory.Delegate[Set](immutable.Set)
-  val set = Set(1,2,3)
+  val set = Set("test", "test2", "test3")
 
   val set2 = set map (_ + 1)
 

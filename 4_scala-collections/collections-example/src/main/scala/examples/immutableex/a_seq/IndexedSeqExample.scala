@@ -1,4 +1,4 @@
-package examples.immutableex
+package examples.immutableex.a_seq
 
 object IndexedSeqExample extends App {
 
@@ -6,7 +6,7 @@ object IndexedSeqExample extends App {
 
   val vector: IndexedSeq[String] = Vector("Hello", ", ", "World!")
 
-  //fast index access:
+  // fast index access:
 
   vector(3) // =)
 
