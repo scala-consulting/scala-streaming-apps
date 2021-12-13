@@ -10,8 +10,8 @@ class MessagesSpec extends AnyFlatSpec with MockFactory with should.Matchers {
   import Messages._
 
   "hello" should "return hello message in given language" in {
-    val language: Language = mock[Language]
-    implicit val helloMessageProvider: HelloMessageProvider[language.type] = mock[HelloMessageProvider[language.type]]
+    val language = mock[Language]
+    implicit val helloMessageProvider: HelloMessageProvider[Language] = mock[HelloMessageProvider[Language]]
 
     (helloMessageProvider.message _).expects().returning("Hello").once()
 
