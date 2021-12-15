@@ -26,11 +26,13 @@ object ScalaParallelCollectionsWordCountApp extends App {
       // https://docs.scala-lang.org/overviews/parallel-collections/configuration.html
       parList.tasksupport = new ForkJoinTaskSupport(forkJoinPool)
 
-      parList
+      val parMap: ParMap[String, ParSeq[String]] = parList
         .filter(_.nonEmpty)
-        .groupBy(identity) // the -> List(the, the, the, the, ...)
+        .groupBy(identity)
+
+      parMap // the -> List(the, the, the, the, ...)
         .mapValues(_.size)
-        .toList
+        .toList: List[(String, Int)]
     } finally {
       source.close()
       forkJoinPool.shutdown()

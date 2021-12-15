@@ -2,7 +2,7 @@ package me.saksonov.consulting.b_spark_examples.b_cakepattern.sparkapi.b_ds
 
 import me.saksonov.consulting.b_spark_examples.b_cakepattern.provider.{DefaultSparkSessionProvider, SparkSessionProviderComponent}
 import org.apache.spark.sql.{DataFrame, Dataset, Row}
-import org.apache.spark.sql.functions.desc
+import org.apache.spark.sql.functions._
 
 object WordCountDatasetExampleApp extends App
   with SparkSessionProviderComponent
@@ -33,19 +33,21 @@ trait WordCountDatasetExample {
       .textFile(path)
       .toDF()
 
-    val textDS: Dataset[Line] = (textDF: Dataset[Row]).as[Line]
+    val linesDS: Dataset[Line] = (textDF: Dataset[Row]).as[Line]
+
+    val wordsDS = linesDS.flatMap(line => line.value.split(" "))
+      .filter(_.nonEmpty)
+      .as[Word]
 
     val counts: Dataset[WordCount] =
-      textDS.flatMap(line => line.value.split(" "))
-        .filter(_.nonEmpty)
-        .as[Word]
+      wordsDS
         .groupByKey(identity)
         .count() // Row["key", "count(1)"]
-        .withColumnRenamed("key", "word")
-        .withColumnRenamed("count(1)", "count")
-        // Row["word", "count"]
-        .as[WordCount]
-    //.map { case (word, count) => WordCount(word, count) }
+//        .withColumnRenamed("key", "word")
+//        .withColumnRenamed("count(1)", "count")
+//        // Row["word", "count"]
+//        .as[WordCount]
+        .map { case (word, count) => WordCount(word, count) }
 
     counts.sort(desc("count")).show(10)
   }
