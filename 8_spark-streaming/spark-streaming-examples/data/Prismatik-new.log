@@ -1,0 +1,419 @@
+
+2018_05_20 21:08:21:875 Prismatik 5.11.3
+21:08:21:919 Debug: LightpackApplication::LightpackApplication(int&, char**) 
+21:08:21:919 Debug: static bool SettingsScope::Settings::Initialize(const QString&, bool) 
+21:08:21:919 Debug: static QString SettingsScope::Settings::getMainConfigPath() "C:/Users/Andrey/Prismatik/main.conf" 
+21:08:21:919 Debug: static QString SettingsScope::Settings::getMainConfigPath() "C:/Users/Andrey/Prismatik/main.conf" 
+21:08:21:920 Debug: static bool SettingsScope::Settings::Initialize(const QString&, bool) debugLevel = 1 
+21:08:21:921 Debug: Settings file: "C:/Users/Andrey/Prismatik/Profiles/Lightpack.ini" 
+21:08:21:921 Debug: static void SettingsScope::Settings::initDevicesMap() 
+21:08:21:921 Debug: static void SettingsScope::Settings::initCurrentProfile(bool) false 
+21:08:21:930 Debug: static void SettingsScope::Settings::initCurrentProfile(bool) led 
+21:08:21:942 Warning: QMetaObject::connectSlotsByName: No matching signal for on_numberOfLeds_valueChanged(int)
+21:08:21:942 Debug: virtual void LightpackDiscoveryPage::initializePage() 1
+21:08:21:942 Debug: LedDeviceLightpack::LedDeviceLightpack(QObject*) 
+21:08:21:942 Debug: LedDeviceLightpack::LedDeviceLightpack(QObject*) thread id:  0x47c4 
+21:08:21:942 Debug: LedDeviceLightpack::LedDeviceLightpack(QObject*) initialized 
+21:08:21:942 Debug: virtual void LedDeviceLightpack::open() "hid_open(0x1d50, 0x6022)" 
+21:08:22:984 Debug: found Lightpack, serial number:  "95230303231351F02051" 
+21:08:22:985 Debug: found Lightpack, serial number:  "95230303231351C0A141" 
+21:08:22:988 Debug: virtual void LedDeviceLightpack::open() Lightpack opened 
+21:08:22:988 Debug: virtual void LedDeviceLightpack::updateDeviceSettings() QObject(0x0)  
+21:08:22:988 Debug: virtual void LedDeviceLightpack::setRefreshDelay(int) 100 
+21:08:22:990 Debug: virtual void LedDeviceLightpack::setColorDepth(int) 128 
+21:08:22:991 Debug: virtual void LedDeviceLightpack::setSmoothSlowdown(int) 100 
+21:08:22:993 Debug: virtual void LedDeviceLightpack::requestFirmwareVersion() 
+21:08:22:993 Debug: bool LedDeviceLightpack::readDataFromDevice() 
+21:08:22:993 Debug: virtual void LedDeviceLightpack::requestFirmwareVersion() Version: "0.0" 
+21:08:23:014 Debug: virtual int LightpackDiscoveryPage::nextId() const 
+21:08:23:014 Debug: virtual int LightpackDiscoveryPage::nextId() const 
+21:08:25:132 Debug: virtual bool LightpackDiscoveryPage::validatePage() 
+21:08:25:132 Debug: virtual int LightpackDiscoveryPage::nextId() const 
+21:08:25:132 Debug: virtual void MonitorConfigurationPage::initializePage() 
+21:08:25:132 Debug: virtual void MonitorConfigurationPage::initializePage() "Monitor 1, 1920x1200+0+0" 
+21:08:25:141 Debug: virtual void MonitorConfigurationPage::initializePage() "Monitor 2, 1920x1200+1920+0" 
+21:08:28:925 Debug: virtual bool MonitorConfigurationPage::validatePage() 
+21:08:28:931 Debug: static QStringList SettingsScope::Settings::findAllProfiles() 
+21:08:31:680 Debug: void SelectProfilePage::profileRename() 
+21:08:31:680 Debug: void SelectProfilePage::profileRename() Nothing has changed 
+21:08:33:467 Debug: static void SettingsScope::Settings::initCurrentProfile(bool) false 
+21:08:33:475 Debug: static void SettingsScope::Settings::initCurrentProfile(bool) led 
+21:08:33:475 Debug: Settings file: "C:/Users/Andrey/Prismatik/Profiles/����� �������.ini" 
+21:08:33:475 Debug: virtual void LedDeviceLightpack::setSmoothSlowdown(int) 70 
+21:08:33:477 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 0 
+21:08:33:479 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 1 
+21:08:33:480 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 2 
+21:08:33:481 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 3 
+21:08:33:482 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 4 
+21:08:33:484 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 5 
+21:08:33:485 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 6 
+21:08:33:486 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 7 
+21:08:33:488 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 8 
+21:08:33:489 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 9 
+21:08:38:438 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 0 
+21:08:38:438 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 1 
+21:08:38:439 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 2 
+21:08:38:439 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 3 
+21:08:38:440 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 4 
+21:08:38:440 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 5 
+21:08:38:441 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 6 
+21:08:38:441 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 7 
+21:08:38:442 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 8 
+21:08:38:442 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 9 
+21:08:38:443 Debug: 0.85 0.8 
+21:08:38:443 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 0 
+21:08:38:445 Debug: 0.85 0.6 
+21:08:38:445 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 1 
+21:08:38:446 Debug: 0.85 0.4 
+21:08:38:446 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 2 
+21:08:38:447 Debug: 0.85 0.2 
+21:08:38:447 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 3 
+21:08:38:448 Debug: 0.85 5.55112e-17 
+21:08:38:449 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 4 
+21:08:38:450 Debug: 0 0 
+21:08:38:450 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 5 
+21:08:38:451 Debug: 0 0.2 
+21:08:38:451 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 6 
+21:08:38:453 Debug: 0 0.4 
+21:08:38:453 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 7 
+21:08:38:454 Debug: 0 0.6 
+21:08:38:454 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 8 
+21:08:38:455 Debug: 0 0.8 
+21:08:38:455 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 9 
+21:08:39:013 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 0 
+21:08:39:013 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 1 
+21:08:39:014 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 2 
+21:08:39:014 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 3 
+21:08:39:015 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 4 
+21:08:39:015 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 5 
+21:08:39:016 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 6 
+21:08:39:016 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 7 
+21:08:39:016 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 8 
+21:08:39:017 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 9 
+21:08:39:017 Debug: 0.85 0.8 
+21:08:39:017 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 0 
+21:08:39:018 Debug: 0.85 0.6 
+21:08:39:019 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 1 
+21:08:39:020 Debug: 0.85 0.4 
+21:08:39:020 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 2 
+21:08:39:021 Debug: 0.85 0.2 
+21:08:39:021 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 3 
+21:08:39:022 Debug: 0.85 5.55112e-17 
+21:08:39:022 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 4 
+21:08:39:023 Debug: 0 0 
+21:08:39:024 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 5 
+21:08:39:025 Debug: 0 0.2 
+21:08:39:025 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 6 
+21:08:39:027 Debug: 0 0.4 
+21:08:39:027 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 7 
+21:08:39:028 Debug: 0 0.6 
+21:08:39:028 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 8 
+21:08:39:029 Debug: 0 0.8 
+21:08:39:030 Debug: GrabAreaWidget::GrabAreaWidget(int, QWidget*) 9 
+21:09:00:992 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 0 
+21:09:00:993 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 1 
+21:09:00:993 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 2 
+21:09:00:993 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 3 
+21:09:00:994 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 4 
+21:09:00:995 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 5 
+21:09:00:995 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 6 
+21:09:00:996 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 7 
+21:09:00:996 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 8 
+21:09:00:997 Debug: virtual GrabAreaWidget::~GrabAreaWidget() 9 
+21:09:02:000 Debug: void SelectProfilePage::profileRename() 
+21:09:02:000 Debug: void SelectProfilePage::profileRename() Nothing has changed 
+21:09:03:179 Debug: virtual void MonitorConfigurationPage::cleanupPage() 
+21:09:03:186 Debug: virtual LedDeviceLightpack::~LedDeviceLightpack() hid_close(...); 
+21:09:03:186 Debug: void LedDeviceLightpack::closeDevices() 
+21:09:03:201 Debug: Prismatik: 5.11.3 rev. 9ac75f5 
+21:09:03:201 Debug: Build with Qt verison: 5.2.1 
+21:09:03:201 Debug: Qt version currently in use: 5.2.1 
+21:09:03:202 Debug: Unknown windows version: 160 
+21:09:03:202 Debug: static bool SettingsScope::Settings::Initialize(const QString&, bool) 
+21:09:03:202 Debug: SettingsWindow::SettingsWindow(QWidget*) thread id:  0x47c4 
+21:09:03:521 Debug: void SettingsWindow::initLanguages() 
+21:09:03:521 Debug: void SettingsWindow::initVirtualLeds(int) 10 
+21:09:03:521 Debug: void SettingsWindow::loadTranslation(const QString&) "<System>" 
+21:09:03:521 Debug: static void SettingsScope::Settings::setLanguage(const QString&) 
+21:09:03:521 Debug: System locale "ru_RU" 
+21:09:03:521 Debug: static void SettingsScope::Settings::setLanguage(const QString&) 
+21:09:03:521 Debug: void SettingsWindow::loadTranslation(const QString&) Load translation for locale "ru_RU" 
+21:09:03:568 Debug: SettingsWindow::SettingsWindow(QWidget*) initialized 
+21:09:03:568 Debug: void SettingsWindow::createTrayIcon() 
+21:09:03:569 Debug: void SysTrayIconPrivate::createActions() 
+21:09:03:569 Debug: static QStringList SettingsScope::Settings::findAllProfiles() 
+21:09:03:587 Debug: void SettingsWindow::connectSignalsSlots() 
+21:09:03:587 Warning: QObject::connect: No such slot SettingsWindow::onHotkeyChanged(QString,QKeySequence,QKeySequence)
+21:09:03:587 Warning: QObject::connect:  (receiver name: 'SettingsWindow')
+21:09:03:588 Debug: void LightpackApplication::startLedDeviceManager() 
+21:09:03:588 Debug: void LightpackPluginInterface::initColors(int) 10 
+21:09:03:588 Debug: void LightpackApplication::startLedDeviceManager() end 
+21:09:03:588 Debug: void LightpackApplication::startApiServer() Start API server 
+21:09:03:588 Debug: void ApiServerSetColorTask::setApiDeviceNumberOfLeds(int) 10 
+21:09:03:588 Debug: void ApiServer::setInterface(LightpackPluginInterface*) "1.4" 
+21:09:03:588 Debug: void ApiServer::updateApiKey(const QString&) "" 
+21:09:03:588 Debug: void ApiServer::startListening() 3636 
+21:09:03:589 Debug: void LedDeviceManager::initLedDevice() 
+21:09:03:589 Debug: AbstractLedDevice* LedDeviceManager::createLedDevice(SupportedDevices::DeviceType) SupportedDevices::LightpackDevice 
+21:09:03:589 Debug: LedDeviceLightpack::LedDeviceLightpack(QObject*) 
+21:09:03:589 Debug: LedDeviceLightpack::LedDeviceLightpack(QObject*) thread id:  0x39c 
+21:09:03:589 Debug: LedDeviceLightpack::LedDeviceLightpack(QObject*) initialized 
+21:09:03:589 Debug: virtual void LedDeviceLightpack::updateDeviceSettings() LedDeviceManager(0x4858500) 
+21:09:03:590 Debug: void LedDeviceLightpack::closeDevices() 
+21:09:03:590 Debug: virtual void LedDeviceLightpack::open() "hid_open(0x1d50, 0x6022)" 
+21:09:03:590 Debug: void LightpackApplication::initGrabManager() 
+21:09:03:591 Debug: GrabManager::GrabManager(QWidget*) 
+21:09:03:591 Debug: void GrabManager::initGrabbers() 
+21:09:03:591 Debug: static int SettingsScope::Settings::getGrabSlowdown() 
+21:09:03:591 Debug: static Grab::GrabberType SettingsScope::Settings::getGrabberType() 
+21:09:03:591 Debug: GrabberBase* GrabManager::queryGrabber(Grab::GrabberType) grabberType: 3 
+21:09:03:591 Debug: static int SettingsScope::Settings::getGrabSlowdown() 
+21:09:03:591 Debug: virtual void GrabberBase::setGrabInterval(int) WinAPIGrabber 
+21:09:03:591 Debug: void GrabManager::initColorLists(int) 10 
+21:09:03:591 Debug: void GrabManager::initLedWidgets(int) 10 
+21:09:03:591 Debug: void GrabManager::initLedWidgets(int) First widget initialization 
+21:09:03:591 Debug: GrabWidget::GrabWidget(int, QWidget*) 0 
+21:09:03:593 Debug: void GrabWidget::settingsProfileChanged() 0 
+21:09:03:594 Debug: void GrabManager::initLedWidgets(int) Append 9 grab widgets 
+21:09:03:594 Debug: GrabWidget::GrabWidget(int, QWidget*) 1 
+21:09:03:595 Debug: void GrabWidget::settingsProfileChanged() 1 
+21:09:03:595 Debug: GrabWidget::GrabWidget(int, QWidget*) 2 
+21:09:03:597 Debug: void GrabWidget::settingsProfileChanged() 2 
+21:09:03:598 Debug: GrabWidget::GrabWidget(int, QWidget*) 3 
+21:09:03:599 Debug: void GrabWidget::settingsProfileChanged() 3 
+21:09:03:599 Debug: GrabWidget::GrabWidget(int, QWidget*) 4 
+21:09:03:601 Debug: void GrabWidget::settingsProfileChanged() 4 
+21:09:03:601 Debug: GrabWidget::GrabWidget(int, QWidget*) 5 
+21:09:03:602 Debug: void GrabWidget::settingsProfileChanged() 5 
+21:09:03:603 Debug: GrabWidget::GrabWidget(int, QWidget*) 6 
+21:09:03:604 Debug: void GrabWidget::settingsProfileChanged() 6 
+21:09:03:604 Debug: GrabWidget::GrabWidget(int, QWidget*) 7 
+21:09:03:606 Debug: void GrabWidget::settingsProfileChanged() 7 
+21:09:03:606 Debug: GrabWidget::GrabWidget(int, QWidget*) 8 
+21:09:03:608 Debug: void GrabWidget::settingsProfileChanged() 8 
+21:09:03:608 Debug: GrabWidget::GrabWidget(int, QWidget*) 9 
+21:09:03:609 Debug: void GrabWidget::settingsProfileChanged() 9 
+21:09:03:610 Debug: void GrabManager::updateScreenGeometry() 
+21:09:03:610 Debug: void GrabManager::settingsProfileChanged(const QString&) 
+21:09:03:610 Debug: void GrabManager::setNumberOfLeds(int) 10 
+21:09:03:610 Debug: void GrabManager::initColorLists(int) 10 
+21:09:03:610 Debug: void GrabManager::initLedWidgets(int) 10 
+21:09:03:610 Debug: void GrabManager::initLedWidgets(int) Remove last 0 grab widgets 
+21:09:03:610 Debug: void GrabWidget::settingsProfileChanged() 0 
+21:09:03:610 Debug: void GrabWidget::settingsProfileChanged() 1 
+21:09:03:610 Debug: void GrabWidget::settingsProfileChanged() 2 
+21:09:03:610 Debug: void GrabWidget::settingsProfileChanged() 3 
+21:09:03:610 Debug: void GrabWidget::settingsProfileChanged() 4 
+21:09:03:610 Debug: void GrabWidget::settingsProfileChanged() 5 
+21:09:03:610 Debug: void GrabWidget::settingsProfileChanged() 6 
+21:09:03:610 Debug: void GrabWidget::settingsProfileChanged() 7 
+21:09:03:610 Debug: void GrabWidget::settingsProfileChanged() 8 
+21:09:03:610 Debug: void GrabWidget::settingsProfileChanged() 9 
+21:09:03:610 Debug: GrabManager::GrabManager(QWidget*) initialized 
+21:09:03:610 Debug: static bool SettingsScope::Settings::isMoodLampLiquidMode() 
+21:09:03:610 Debug: static int SettingsScope::Settings::getMoodLampSpeed() 
+21:09:03:610 Debug: static QColor SettingsScope::Settings::getMoodLampColor() 
+21:09:03:610 Debug: static int SettingsScope::Settings::getMoodLampSpeed() 
+21:09:03:610 Debug: static QColor SettingsScope::Settings::getMoodLampColor() 
+21:09:03:610 Debug: static bool SettingsScope::Settings::isMoodLampLiquidMode() 
+21:09:03:610 Debug: void MoodLampManager::setLiquidMode(bool) true 
+21:09:03:610 Debug: void MoodLampManager::initColors(int) 10 
+21:09:03:611 Warning: QObject::connect: No such signal GrabManager::changeScreen(QRect)
+21:09:03:611 Debug: void SettingsWindow::startBacklight() m_backlightStatus = 1 m_deviceLockStatus = 0 
+21:09:03:613 Debug: void LightpackApplication::settingsChanged() 
+21:09:03:613 Debug: void LightpackPluginInterface::changeProfile(QString) "����� �������" 
+21:09:03:613 Debug: void GrabManager::onSendDataOnlyIfColorsEnabledChanged(bool) true 
+21:09:03:613 Debug: void MoodLampManager::setSendDataOnlyIfColorsChanged(bool) true 
+21:09:03:613 Debug: static QColor SettingsScope::Settings::getMoodLampColor() 
+21:09:03:613 Debug: static int SettingsScope::Settings::getMoodLampSpeed() 
+21:09:03:613 Debug: void MoodLampManager::setLiquidModeSpeed(int) 50 
+21:09:03:613 Debug: static bool SettingsScope::Settings::isMoodLampLiquidMode() 
+21:09:03:613 Debug: void MoodLampManager::setLiquidMode(bool) true 
+21:09:03:613 Debug: static Lightpack::Mode SettingsScope::Settings::getLightpackMode() 
+21:09:03:613 Debug: void GrabManager::start(bool) true 
+21:09:03:613 Debug: virtual void GrabberBase::startGrabbing() WinAPIGrabber 
+21:09:03:613 Debug: void MoodLampManager::start(bool) false 
+21:09:03:614 Debug: void LightpackApplication::startPluginManager() 
+21:09:03:614 Debug: static QString SettingsScope::Settings::getApplicationDirPath() "C:/Users/Andrey/Prismatik/" 
+21:09:03:614 Debug: void PluginsManager::LoadPlugins(QString) "C:/Users/Andrey/Prismatik/Plugins" 
+21:09:03:614 Debug: void PluginsManager::StartPlugins() 
+21:09:03:619 Debug: void SettingsWindow::updateUiFromSettings() 
+21:09:03:619 Debug: static QStringList SettingsScope::Settings::findAllProfiles() 
+21:09:03:619 Debug: void SettingsWindow::profilesLoadAll() found profiles: ("Lightpack", "����� �������") 
+21:09:03:619 Debug: void SettingsWindow::profileSwitch(const QString&) "����� �������" 
+21:09:03:619 Debug: static QStringList SettingsScope::Settings::findAllProfiles() 
+21:09:03:620 Debug: void SettingsWindow::profilesLoadAll() found profiles: ("Lightpack", "����� �������") 
+21:09:03:620 Debug: static QStringList SettingsScope::Settings::findAllProfiles() 
+21:09:03:622 Debug: static Lightpack::Mode SettingsScope::Settings::getLightpackMode() 
+21:09:03:622 Debug: void SettingsWindow::onLightpackModeChanged(Lightpack::Mode) 0 0 
+21:09:03:622 Debug: void LightpackApplication::showLedWidgets(bool) false 
+21:09:03:622 Debug: void GrabManager::setVisibleLedWidgets(bool) false 
+21:09:03:625 Debug: void LightpackApplication::setStatusChanged(Backlight::Status) 1 
+21:09:03:625 Debug: void LightpackApplication::startBacklight() m_backlightStatus = 1 m_deviceLockStatus = 0 
+21:09:03:625 Debug: static void SettingsScope::Settings::setIsBacklightEnabled(bool) 
+21:09:03:625 Debug: static Lightpack::Mode SettingsScope::Settings::getLightpackMode() 
+21:09:03:625 Debug: void GrabManager::start(bool) true 
+21:09:03:625 Debug: virtual void GrabberBase::startGrabbing() WinAPIGrabber 
+21:09:03:625 Debug: void MoodLampManager::start(bool) false 
+21:09:03:625 Warning: void LightpackApplication::startBacklight() status contains crap = 1 
+21:09:03:625 Debug: static void SettingsScope::Settings::setKeepLightsOnAfterExit(bool) 
+21:09:03:625 Debug: static void SettingsScope::Settings::setKeepLightsOnAfterLock(bool) 
+21:09:03:625 Debug: void SettingsWindow::onPingDeviceEverySecond_Toggled(bool) true 
+21:09:03:625 Debug: static void SettingsScope::Settings::setPingDeviceEverySecond(bool) 
+21:09:03:625 Debug: static int SettingsScope::Settings::getGrabSlowdown() 
+21:09:03:625 Debug: void SettingsWindow::onGrabSlowdown_valueChanged(int) 50 
+21:09:03:625 Debug: static void SettingsScope::Settings::setGrabSlowdown(int) 
+21:09:03:625 Debug: void SettingsWindow::onLuminosityThreshold_valueChanged(int) 3 
+21:09:03:626 Debug: static void SettingsScope::Settings::setLuminosityThreshold(int) 
+21:09:03:626 Debug: static bool SettingsScope::Settings::isMoodLampLiquidMode() 
+21:09:03:626 Debug: static bool SettingsScope::Settings::isMoodLampLiquidMode() 
+21:09:03:626 Debug: void SettingsWindow::onMoodLampLiquidMode_Toggled(bool) true 
+21:09:03:626 Debug: static void SettingsScope::Settings::setMoodLampLiquidMode(bool) 
+21:09:03:626 Debug: void MoodLampManager::setLiquidMode(bool) true 
+21:09:03:626 Debug: static bool SettingsScope::Settings::isMoodLampLiquidMode() 
+21:09:03:626 Debug: static QColor SettingsScope::Settings::getMoodLampColor() 
+21:09:03:626 Debug: static void SettingsScope::Settings::setMoodLampColor(QColor) "#00ff00" 
+21:09:03:626 Debug: static int SettingsScope::Settings::getMoodLampSpeed() 
+21:09:03:626 Debug: void SettingsWindow::onMoodLampSpeed_valueChanged(int) 50 
+21:09:03:626 Debug: static void SettingsScope::Settings::setMoodLampSpeed(int) 
+21:09:03:626 Debug: void MoodLampManager::setLiquidModeSpeed(int) 50 
+21:09:03:626 Debug: void SettingsWindow::onDeviceRefreshDelay_valueChanged(int) 100 
+21:09:03:626 Debug: static void SettingsScope::Settings::setDeviceRefreshDelay(int) 
+21:09:03:626 Debug: void SettingsWindow::onDeviceColorDepth_valueChanged(int) 128 
+21:09:03:626 Debug: static void SettingsScope::Settings::setDeviceColorDepth(int) 
+21:09:03:626 Debug: void SettingsWindow::onDeviceGammaCorrection_valueChanged(double) 2 
+21:09:03:626 Debug: static void SettingsScope::Settings::setDeviceGamma(double) 
+21:09:03:626 Debug: void SettingsWindow::onSliderDeviceGammaCorrection_valueChanged(int) 200 
+21:09:03:626 Debug: static void SettingsScope::Settings::setDeviceGamma(double) 
+21:09:03:626 Debug: void SettingsWindow::onListenOnlyOnLoInterface_Toggled(bool) true 
+21:09:03:626 Debug: static void SettingsScope::Settings::setListenOnlyOnLoInterface(bool) 
+21:09:03:627 Debug: void ApiServer::apiServerSettingsChanged() 
+21:09:03:627 Debug: void SettingsWindow::onLoggingLevel_valueChanged(int) 1 
+21:09:03:627 Debug: void ApiServer::stopListening() 
+21:09:03:627 Debug: static void SettingsScope::Settings::setDebugLevel(int) 
+21:09:03:627 Debug: static Grab::GrabberType SettingsScope::Settings::getGrabberType() 
+21:09:03:627 Debug: void SettingsWindow::onMoodLampLiquidMode_Toggled(bool) true 
+21:09:03:627 Debug: static void SettingsScope::Settings::setMoodLampLiquidMode(bool) 
+21:09:03:627 Debug: void ApiServer::startListening() 3636 
+21:09:03:627 Debug: void MoodLampManager::setLiquidMode(bool) true 
+21:09:03:627 Debug: static bool SettingsScope::Settings::isMoodLampLiquidMode() 
+21:09:03:627 Debug: void SettingsWindow::updateDeviceTabWidgetsVisibility() 
+21:09:03:627 Debug: void SettingsWindow::setDeviceTabWidgetsVisibility(DeviceTab::Options) 63 
+21:09:03:627 Debug: void SettingsWindow::settingsProfileChanged_UpdateUI(const QString&) 
+21:09:03:627 Debug: static QStringList SettingsScope::Settings::findAllProfiles() 
+21:09:03:639 Debug: int qMain(int, char**) thread id:  0x47c4 
+21:09:03:639 Debug: Start main event loop: lightpackApp.exec(); 
+21:09:03:647 Debug: void SettingsWindow::onLightpackModes_currentIndexChanged(int) -1 QComboBox(0x3134568, name = "comboBox_LightpackModes") 
+21:09:03:647 Debug: static Lightpack::Mode SettingsScope::Settings::getLightpackMode() 
+21:09:03:647 Debug: void SettingsWindow::onLightpackModes_currentIndexChanged(int) 0 QComboBox(0x3134568, name = "comboBox_LightpackModes") 
+21:09:03:652 Debug: virtual void SysTrayIconPrivate::retranslateUi() 
+21:09:03:652 Debug: static QStringList SettingsScope::Settings::findAllProfiles() 
+21:09:03:654 Debug: virtual void GrabberBase::setGrabInterval(int) WinAPIGrabber 
+21:09:03:655 Debug: void SettingsWindow::updatePlugin(QList<Plugin*>) 
+21:09:03:655 Debug: void LightpackPluginInterface::updatePlugin(QList<Plugin*>) 
+21:09:03:673 Debug: void GrabManager::onGrabSlowdownChanged(int) 50 
+21:09:03:673 Debug: virtual void GrabberBase::setGrabInterval(int) WinAPIGrabber 
+21:09:03:754 Debug: dimensions  1920 x 1200 0x10044 
+21:09:03:765 Debug: virtual bool WinAPIGrabber::reallocate(const QList<ScreenInfo>&) pixelsBuffSize = 9216000 
+21:09:03:833 Debug: void SettingsWindow::ledDeviceCallSuccess(bool) Backlight::StatusDeviceError 
+21:09:03:833 Debug: void SettingsWindow::ledDeviceCallSuccess(bool) Backlight::StatusDeviceError 
+21:09:03:959 Debug: void SettingsWindow::ledDeviceCallSuccess(bool) Backlight::StatusDeviceError 
+21:09:03:959 Debug: void SettingsWindow::ledDeviceCallSuccess(bool) Backlight::StatusDeviceError 
+21:09:04:629 Debug: found Lightpack, serial number:  "95230303231351F02051" 
+21:09:04:629 Debug: found Lightpack, serial number:  "95230303231351C0A141" 
+21:09:04:631 Debug: virtual void LedDeviceLightpack::open() Lightpack opened 
+21:09:04:631 Debug: virtual void LedDeviceLightpack::updateDeviceSettings() LedDeviceManager(0x4858500) 
+21:09:04:631 Debug: virtual void LedDeviceLightpack::setRefreshDelay(int) 100 
+21:09:04:633 Debug: virtual void LedDeviceLightpack::setColorDepth(int) 128 
+21:09:04:635 Debug: virtual void LedDeviceLightpack::setSmoothSlowdown(int) 100 
+21:09:04:636 Debug: virtual void LedDeviceLightpack::requestFirmwareVersion() 
+21:09:04:636 Debug: bool LedDeviceLightpack::readDataFromDevice() 
+21:09:04:636 Debug: virtual void LedDeviceLightpack::requestFirmwareVersion() Version: "0.0" 
+21:09:04:636 Debug: bool LedDeviceLightpack::tryToReopenDevice() Reopen success 
+21:09:04:636 Debug: virtual void LedDeviceLightpack::setRefreshDelay(int) 100 
+21:09:04:639 Debug: virtual void LedDeviceLightpack::setColorDepth(int) 128 
+21:09:04:641 Debug: virtual void LedDeviceLightpack::setSmoothSlowdown(int) 100 
+21:09:04:643 Debug: virtual void LedDeviceLightpack::requestFirmwareVersion() 
+21:09:04:643 Debug: bool LedDeviceLightpack::readDataFromDevice() 
+21:09:04:643 Debug: virtual void LedDeviceLightpack::requestFirmwareVersion() Version: "0.0" 
+21:09:04:665 Debug: void SettingsWindow::ledDeviceFirmwareVersionResult(const QString&) "0.0" 
+21:09:04:665 Debug: void SettingsWindow::setFirmwareVersion(const QString&) 
+21:09:04:665 Debug: void SettingsWindow::versionsUpdate() 
+21:09:04:665 Debug: void SettingsWindow::updateDeviceTabWidgetsVisibility() 
+21:09:04:665 Debug: void SettingsWindow::setDeviceTabWidgetsVisibility(DeviceTab::Options) 63 
+21:09:04:666 Debug: int SettingsWindow::getLigtpackFirmwareVersionMajor() Prismatik major version: 0 
+21:09:04:666 Debug: void SettingsWindow::ledDeviceOpenSuccess(bool) true 
+21:09:04:666 Debug: void SettingsWindow::ledDeviceFirmwareVersionResult(const QString&) "0.0" 
+21:09:04:666 Debug: void SettingsWindow::setFirmwareVersion(const QString&) 
+21:09:04:666 Debug: void SettingsWindow::versionsUpdate() 
+21:09:04:666 Debug: void SettingsWindow::updateDeviceTabWidgetsVisibility() 
+21:09:04:666 Debug: void SettingsWindow::setDeviceTabWidgetsVisibility(DeviceTab::Options) 63 
+21:09:04:666 Debug: int SettingsWindow::getLigtpackFirmwareVersionMajor() Prismatik major version: 0 
+21:09:04:666 Debug: void SettingsWindow::ledDeviceOpenSuccess(bool) true 
+21:09:08:282 Debug: void SysTrayIconPrivate::onTrayIcon_Activated(QSystemTrayIcon::ActivationReason) 
+21:09:10:976 Debug: void SettingsWindow::showSettings() 
+21:09:11:038 Debug: void LightpackApplication::onFocusChanged(QWidget*, QWidget*) SettingsWindow 
+21:09:11:038 Debug: void SettingsWindow::onFocus() 
+21:09:11:101 Warning: setGeometry: Attempt to set a size (635x626) violating the constraints(635x626 - 481x626) on window QWidgetWindow/'SettingsWindowWindow'.
+21:09:12:047 Debug: void LightpackApplication::onFocusChanged(QWidget*, QWidget*) SettingsWindow 
+21:09:12:047 Debug: void SettingsWindow::changePage(int) 1 
+21:09:16:543 Debug: void SettingsWindow::changePage(int) 2 
+21:09:19:267 Debug: void SettingsWindow::changePage(int) 0 
+21:09:21:777 Debug: void LightpackApplication::onFocusChanged(QWidget*, QWidget*) SettingsWindow 
+21:09:21:895 Debug: void SettingsWindow::onGrabIsAvgColors_toggled(bool) true 
+21:09:21:895 Debug: static void SettingsScope::Settings::setGrabAvgColorsEnabled(bool) 
+21:09:21:920 Debug: void GrabManager::onGrabAvgColorsEnabledChanged(bool) true 
+21:09:22:830 Debug: void SettingsWindow::onGrabIsAvgColors_toggled(bool) false 
+21:09:22:830 Debug: static void SettingsScope::Settings::setGrabAvgColorsEnabled(bool) 
+21:09:22:854 Debug: void GrabManager::onGrabAvgColorsEnabledChanged(bool) false 
+21:09:28:102 Debug: void LightpackApplication::onFocusChanged(QWidget*, QWidget*) SettingsWindow 
+21:09:28:271 Debug: void LightpackApplication::onFocusChanged(QWidget*, QWidget*) SettingsWindow 
+21:09:30:115 Debug: void LightpackApplication::onFocusChanged(QWidget*, QWidget*) SettingsWindow 
+21:09:42:787 Debug: void LightpackApplication::onFocusChanged(QWidget*, QWidget*) SettingsWindow 
+21:09:42:787 Debug: void SettingsWindow::changePage(int) 3 
+21:09:43:828 Debug: void SettingsWindow::changePage(int) 2 
+21:09:44:167 Debug: void SettingsWindow::changePage(int) 1 
+21:09:44:466 Debug: void SettingsWindow::changePage(int) 0 
+21:09:45:115 Debug: void LightpackApplication::onFocusChanged(QWidget*, QWidget*) null 
+21:09:45:116 Debug: void SettingsWindow::onBlur() 
+21:09:45:116 Debug: void LightpackApplication::showLedWidgets(bool) false 
+21:09:45:116 Debug: void GrabManager::setVisibleLedWidgets(bool) false 
+21:11:30:530 Debug: void LightpackApplication::onFocusChanged(QWidget*, QWidget*) SettingsWindow 
+21:11:30:530 Debug: void SettingsWindow::onFocus() 
+21:11:30:530 Debug: void SettingsWindow::changePage(int) 5 
+21:11:41:889 Debug: void LightpackApplication::onFocusChanged(QWidget*, QWidget*) null 
+21:11:41:889 Debug: void SettingsWindow::onBlur() 
+21:11:41:889 Debug: void LightpackApplication::showLedWidgets(bool) false 
+21:11:41:889 Debug: void GrabManager::setVisibleLedWidgets(bool) false 
+21:11:45:748 Debug: void LightpackApplication::onFocusChanged(QWidget*, QWidget*) SettingsWindow 
+21:11:45:748 Debug: void SettingsWindow::onFocus() 
+21:11:45:748 Debug: virtual void SettingsWindow::closeEvent(QCloseEvent*) 
+21:11:45:748 Debug: void SettingsWindow::hideSettings() 
+21:11:45:748 Debug: void LightpackApplication::showLedWidgets(bool) false 
+21:11:45:748 Debug: void GrabManager::setVisibleLedWidgets(bool) false 
+21:11:45:748 Debug: void LightpackApplication::onFocusChanged(QWidget*, QWidget*) null 
+21:11:45:748 Debug: void SettingsWindow::onBlur() 
+21:11:45:748 Debug: void LightpackApplication::showLedWidgets(bool) false 
+21:11:45:748 Debug: void GrabManager::setVisibleLedWidgets(bool) false 
+21:12:12:018 Debug: void SysTrayIconPrivate::onTrayIcon_Activated(QSystemTrayIcon::ActivationReason) 
+21:12:12:651 Debug: void SettingsWindow::quit() trayIcon->hide(); 
+21:12:12:655 Debug: void SettingsWindow::quit() QApplication::quit(); 
+21:12:12:657 Debug: virtual SettingsWindow::~SettingsWindow() 
+21:12:12:672 Debug: void LedDeviceLightpack::closeDevices() 
+21:12:12:672 Warning: QObject::killTimer: timers cannot be stopped from another thread
+21:12:12:672 Warning: QThread: Destroyed while thread is still running
+21:12:12:673 Warning: QThread: Destroyed while thread is still running
+21:12:12:673 Debug: virtual GrabManager::~GrabManager() 
+21:12:12:673 Debug: virtual GrabWidget::~GrabWidget() 0 
+21:12:12:673 Debug: virtual GrabWidget::~GrabWidget() 1 
+21:12:12:673 Debug: virtual GrabWidget::~GrabWidget() 2 
+21:12:12:673 Debug: virtual GrabWidget::~GrabWidget() 3 
+21:12:12:673 Debug: virtual GrabWidget::~GrabWidget() 4 
+21:12:12:674 Debug: virtual GrabWidget::~GrabWidget() 5 
+21:12:12:674 Debug: virtual GrabWidget::~GrabWidget() 6 
+21:12:12:674 Debug: virtual GrabWidget::~GrabWidget() 7 
+21:12:12:674 Debug: virtual GrabWidget::~GrabWidget() 8 
+21:12:12:674 Debug: virtual GrabWidget::~GrabWidget() 9 
+21:12:12:677 Debug: deleting  WinAPIGrabber 
+21:12:12:680 Debug: void PluginsManager::dropPlugins() 
+21:12:12:680 Debug: virtual LightpackPluginInterface::~LightpackPluginInterface() 
