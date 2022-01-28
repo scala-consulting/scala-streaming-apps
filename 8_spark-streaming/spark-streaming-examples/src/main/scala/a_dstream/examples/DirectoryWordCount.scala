@@ -3,6 +3,7 @@ package a_dstream.examples
 
 import a_dstream.component._
 
+import org.apache.spark.streaming.dstream.DStream
 import org.apache.spark.streaming.{Duration, Seconds}
 
 object DirectoryWordCountApp extends App
@@ -30,7 +31,7 @@ trait DirectoryWordCountExample {
   private lazy val streamingContext = streamingContextProvider.streamingContext
 
   def runDirectoryWordCountExample(dataDirectory: String): Unit = {
-    val lines = streamingContext.textFileStream(dataDirectory) // file modification time must be new!!!
+    val lines: DStream[String] = streamingContext.textFileStream(dataDirectory) // file modification time must be new!!!
 
     val words = lines.flatMap(_.split(" "))
 

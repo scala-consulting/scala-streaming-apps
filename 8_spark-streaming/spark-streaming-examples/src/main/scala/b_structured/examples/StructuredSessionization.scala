@@ -8,12 +8,14 @@ import org.apache.spark.sql.{Dataset, Row}
 
 import java.sql.Timestamp
 
+// Input: Stream[Event]
 case class Event(sessionId: String, timestamp: Timestamp)
 
 case class SessionInfo(numEvents: Int, startTimestampMs: Long, endTimestampMs: Long) {
   def durationMs: Long = endTimestampMs - startTimestampMs
 }
 
+// Output: Stream[SessionUpdate]
 case class SessionUpdate(id: String, durationMs: Long, numEvents: Int, expired: Boolean)
 
 trait StructuredSessionizationExample {
